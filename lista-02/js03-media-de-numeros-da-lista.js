@@ -1,0 +1,1 @@
+// Faça um programa que faça a média de todos os nros de uma lista 

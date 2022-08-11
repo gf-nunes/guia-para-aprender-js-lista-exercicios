@@ -1,0 +1,1 @@
+// Faça um programa que percorra uma lista e inf. se o numero é impar ou par
