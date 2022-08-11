@@ -19,14 +19,16 @@
  *  - Veja como é feito para mostrar sempre 1 casa decimal
  *  - O que aconteceria se não tivesse o .toFixed com a entrada [7, 5, 5.5, 6, 5.1]
  * 
- *  - EXTRA:
- *    Como fazer para Mostrar APROVADO/REPROVADO no final (p/nota de corte = 7)
+ *  DICA:
+ *   - Veja o vídeo seguinte de repetições para conseguir percorrer todas as notas
+ *  EXTRA:
+ *  - Como fazer para Mostrar APROVADO/REPROVADO no final (p/nota de corte = 7)
  */
 
 // Entrada
 var notas = [10, 8, 9.5, 7, 10]
 
-// Altere a expressão abaixo para calcular cm com base na var metros
+// Altere a expressão abaixo para calcular a média a partir do total de notas
 var media, quantidadeDeNotas
 var total = 0
 

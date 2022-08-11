@@ -10,10 +10,12 @@
  *  - altere a variável para outros anos e verifique a resposta está correta
  */
 
-var anoNascimento = 2002
+var anoNascimento = 2021
 
 // Tem que pegar o ano atual usando JS e subtrair a var acima
-var idade = 2022 - anoNascimento
+var ano = new Date().getFullYear()
+var idade = ano - anoNascimento
+
 
 var resultado = '👉 Quem nasceu em ' + anoNascimento + ', sua idade é ' + idade
 
