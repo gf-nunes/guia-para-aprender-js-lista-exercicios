@@ -9,12 +9,18 @@
  */
 
 // Entrada
-var entrada = [1,2,3,4,5,6,7]
+var lista = [1,2,3,4,5,6,7]
 
 // processamento
 
 //saida
-var impares = 
-    pares = 
+let pares = 0
+
+for (elemento of lista){
+    if(elemento %2 == 0){
+        pares = pares+1
+    }
+} 
+impares =  - pares
 
 console.log(`${impares} ${pares}`)
