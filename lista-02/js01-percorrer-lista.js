@@ -7,11 +7,14 @@
  */
 
 // Entrada
-var entrada = [1,3,5,7,8]
-
-var saida = []
-
-// gerar a lista de saida
-saida = ['impar', 'impar', 'impar', 'impar', 'par']
-
-console.log(saida)
+let numero = [2, 8, 4, 6, 3, 7]
+let listaNumeros = []
+for (valor of numero){
+    resto = valor % 2
+    if (resto == 0){
+        listaNumeros.push('par')
+    }else{
+        listaNumeros.push('ímpar')
+    }
+}
+console.log(listaNumeros)

@@ -25,20 +25,16 @@
  *  - Como fazer para Mostrar APROVADO/REPROVADO no final (p/nota de corte = 7)
  */
 
-// Entrada
-var notas = [10, 8, 9.5, 7, 10]
+    var notas = [10, 8, 9.5, 7, 10];
+    var total = 0;
+    var quantidadeDeNotas = 5;
 
-// Altere a expressão abaixo para calcular a média a partir do total de notas
-var media, quantidadeDeNotas
-var total = 0
+    for (var nota of notas){
+        total += nota;
+    }
 
-// Faça um loop para achar o total de notas
+    var media = total / notas.length;
 
+    var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(1)
 
-// Veja como pegar este valor com base na entrada
-quantidadeDeNotas = 5
-media = 0    // ?
-
-var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(1)
-
-console.log(resultado)
+    console.log(resultado)
