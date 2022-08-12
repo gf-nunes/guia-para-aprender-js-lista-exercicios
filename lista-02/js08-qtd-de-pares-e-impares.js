@@ -21,6 +21,6 @@ for (elemento of lista){
         pares = pares+1
     }
 } 
-impares =  - pares
+impares = lista.length - pares
 
 console.log(`${impares} ${pares}`)
