@@ -14,6 +14,7 @@
 var entrada = 'abacate'
 
 // gere a variável invertido corretamente
-var entrada = []
-
-console.log(invertido)
+var invertido = entrada.split("").reverse().join("")
+    console.log(invertido)
+// var invertido = invertido.reverse().join("")
+//     console.log(invertido)

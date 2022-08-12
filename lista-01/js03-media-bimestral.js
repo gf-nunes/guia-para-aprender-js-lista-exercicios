@@ -34,6 +34,7 @@ var total = 0
 
 // Faça um loop para achar o total de notas
 
+
 // Veja como pegar este valor com base na entrada
 quantidadeDeNotas = 5
 media = 0    // ?

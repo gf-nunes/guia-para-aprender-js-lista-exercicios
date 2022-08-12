@@ -12,9 +12,13 @@
  */
 
 // Entrada
-var texto = 'bcbduf'
 
+var texto = 'bcbduf'
 // implemente aqui uma lógica para descriptografar o texto
 var textoDecripto = 'abacate'
-
-console.log(textoDecripto)
+let cript = ''
+let key = 1
+for (const  letra  of texto) {
+    cript += String.fromCharCode(letra.charCodeAt(0) - key)
+}
+console.log(cript)
